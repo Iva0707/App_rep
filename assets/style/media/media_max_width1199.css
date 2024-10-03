@@ -1,0 +1,26 @@
+@media screen and (max-width: 1199px) {
+    /*  __________design__________ */
+    .design::before {
+        right: -50px;
+        height: calc(100% - 80px);
+    }
+
+    /*  __________footer__________ */
+    .footer__row {
+        justify-content: space-between;
+    }
+
+    .footer__logo-row {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .footer__language-row {
+        position: static;
+    }
+
+    .footer__nav-column {
+        margin-right: 0px;
+    }
+}

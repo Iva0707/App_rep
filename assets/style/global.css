@@ -1,0 +1,175 @@
+/*  __________variables__________ */
+:root {
+    --violet-main: #3D2E87;
+    --violet-secondary: #843FD0;
+    --white: #FFFFFF;
+}
+
+/*  __________font__________ */
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&display=swap');
+
+html {
+    font-family: "Encode Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--violet-main);
+}
+
+/*  __________global__________ */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: var(--violet-main);
+}
+
+a:hover,
+a:focus,
+a:active {
+    outline: none;
+}
+
+.container {
+    max-width: 1207px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.img_fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/*  _________titles / text__________ */
+h1, .h1 {
+    font-weight: 600;
+    font-size: 2.12rem;
+    line-height: 1.2;
+}
+
+h2, .h2 {
+    font-weight: 400;
+    font-size: 1.56rem;
+    line-height: 1.8;
+}
+
+h3, .h3 {
+    font-weight: 600;
+    font-size: 1.31rem;
+    line-height: 1.5;
+}
+
+.t1 {
+    font-weight: 300;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+.t2 {
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.t3 {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+.t4 {
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.t5 {
+    font-weight: 300;
+    font-size: 1.12rem;
+    line-height: 1.8;
+}
+
+/*  __________butttons__________ */
+.btn {
+    font-family: "Encode Sans", sans-serif;
+    color: var(--white);
+    border-radius: 24px;
+    padding: 6px 19px;
+    border: 1px solid transparent;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1rem;
+    background-color: transparent;
+}
+
+.btn.btn_lg {
+    padding: 9px 62px;
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.btn_primary {
+    box-shadow: 0 26px 30px 0 #00000026;
+    background: var(--white);
+    color: var(--violet-secondary);
+}
+
+.btn_secondary {
+    color: var(--violet-main);
+}
+
+.btn_accent {
+    box-shadow: 5px 26px 15px 0 #00000024;
+    background: var(--violet-secondary);
+}
+
+.btn_active {
+    background-color: var(--violet-main);
+    box-shadow: none;
+    color: var(--white);
+}
+
+.btn_overline {
+    background-color: transparent;
+    border-color: var(--violet-main);
+    color: var(--violet-main);
+}
+
+.btn_icon {
+    position: relative;
+    padding: 10px 58px 10px 22px;
+}
+
+.btn_icon::after {
+    position: absolute;
+    content: '';
+    background: url("data:image/svg+xml,%3Csvg width='22' height='22' viewBox='0 0 22 22' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M17.4167 11L4.58342 11M17.4167 11L11.9167 16.5M17.4167 11L11.9167 5.5' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' /%3E%3C/svg%3E") no-repeat;
+    height: 20px;
+    width: 22px;
+    right: 22px;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+.btn_icon.btn_primary::after {
+    background: url("data:image/svg+xml,%3Csvg width='22' height='22' viewBox='0 0 22 22' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M17.4167 11L4.58342 11M17.4167 11L11.9167 16.5M17.4167 11L11.9167 5.5' stroke='%23843FD0' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' /%3E%3C/svg%3E") no-repeat;
+}
+
+.btn_icon.btn_active::after {
+    background: url("data:image/svg+xml,%3Csvg width='22' height='22' viewBox='0 0 22 22' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M17.4167 11L4.58342 11M17.4167 11L11.9167 16.5M17.4167 11L11.9167 5.5' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' /%3E%3C/svg%3E") no-repeat;
+}
+
+.btn_icon.btn_secondary::after {
+    background: url("data:image/svg+xml,%3Csvg width='22' height='22' viewBox='0 0 22 22' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M17.4166 11L4.58329 11M17.4166 11L11.9166 16.5M17.4166 11L11.9166 5.5' stroke='%233D2E87' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' /%3E%3C/svg%3E") no-repeat;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+    transform: scale(1.08);
+    transition: .2s;
+}

@@ -1,0 +1,179 @@
+@media screen and (max-width: 575px) {
+    body {
+        background-size: 250% 100vh;
+    }
+
+    .container {
+        padding: 0 20px;
+    }
+
+    /*  __________header__________ */
+    header {
+        padding: 37px 0;
+    }
+
+    /*  __________main__________ */
+    .main {
+        height: calc(100vh - 107px);
+        background: transparent;
+    }
+
+    /*  __________options__________ */
+    .options {
+        padding: 43px 0px 102px;
+    }
+
+    .option__item-active {
+        .options__btn {
+            margin-top: 17px;
+        }
+    }
+
+    /*  __________design__________ */
+    .design {
+        padding: 100px 0px 67px;
+    }
+
+    .design::before {
+        height: 250px;
+    }
+
+    .design__row {
+        gap: 0px;
+    }
+
+    .design__slider {
+        height: 147px;
+    }
+
+    /*  __________save__________ */
+    .save {
+        padding: 34px 0px 88px 0px;
+    }
+
+    .save__row {
+        gap: 22px;
+    }
+
+    .save__img-box {
+        img {
+            max-height: 440px;
+        }
+    }
+
+    /*  __________feedback__________ */
+    .feedback {
+        padding: 23px 0px 50px;
+    }
+
+    .feedback__title-row {
+        gap: 31px;
+        margin-bottom: 109px;
+    }
+
+    .feedback__arrows {
+        gap: 39px;
+    }
+
+    .feedback__row:before {
+        width: calc(100% + 40px);
+        height: 164px;
+        top: -71px;
+    }
+
+    .feedback__item {
+        padding: 37px 24px;
+        p {
+            line-height: 1.3;
+        }
+    }
+    
+    .feedback__item-active {
+        display: inline-block;
+        flex: 1 1 100%;
+    }
+
+    .feedback__img-box {
+        left: 26px;
+    }
+
+    .feedback__item-row {
+        margin-bottom: 0px;
+    }
+
+    /*  __________pricing__________ */
+    .pricing__title {
+        margin-bottom: 5px;
+    }
+
+    .pricing__description {
+        margin-bottom: 39px;
+    }
+
+    .pricing__item {
+        padding: 49px 46px;
+    }
+
+    .pricing__item-title {
+        font-size: 1.2rem;
+        font-weight: 300;
+        margin-bottom: 0px;
+    }
+
+    .pricing__item-price {
+        font-size: 2.12rem;
+    }
+
+    .pricing__item-term {
+        margin-bottom: 0px;
+    }
+
+    .pricing__item-description {
+        margin-bottom: 35px;
+    }
+
+    /*  __________download__________ */
+    .download {
+        padding: 47px 0 20px;
+    }
+
+    .download__row {
+        padding: 54px 30px 46px;
+    }
+
+    .download__title {
+        max-width: calc(100% - 122px);
+    }
+
+    .download__description {
+        max-width: calc(100% - 122px);
+    }
+
+    /*  __________footer__________ */
+    footer {
+        padding: 25px 0 136px;
+    }
+
+    .footer__logo-column {
+        gap: 42px;
+    }
+
+    .footer__apps-row {
+        gap: 10px;
+        justify-content: space-between;
+        width: 100%;
+        img {
+            max-width: 164px;
+            width: 100%;
+        }
+    }   
+    
+    .footer__nav-column {
+        gap: 30px;
+    }
+
+    .footer__bottom-text {
+        padding: 0 20px;
+        bottom: -85px;
+    }
+}

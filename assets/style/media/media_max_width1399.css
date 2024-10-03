@@ -1,0 +1,64 @@
+@media screen and (max-width: 1399px) {
+    /*  __________options__________ */
+    .options {
+        padding: 13px 0px 163px;
+    }
+
+    /*  __________design__________ */
+    .design__content {
+        h2 {
+            margin-bottom: 15px;
+        }
+    }
+
+    /*  __________save__________ */
+    .save {
+        padding: 34px 0px 42px 0px;
+    }
+
+    .save__content {
+        h2 {
+            margin-bottom: 16px;
+        }
+    }
+
+    /*  __________feedback__________ */
+    .feedback {
+        padding: 23px 0px 102px;
+    }
+
+    /*  __________pricing__________ */
+    .pricing {
+        padding: 67px 0 37px;
+    }
+
+    .pricing__item-active {
+        padding: 62px 38px;
+    }
+
+    /*  __________download__________ */
+    .download {
+        padding: 86px 0 55px;
+    }
+
+    .download__title {
+        font-weight: 500;
+        span {
+            font-weight: 700;
+        }
+    }
+
+    /*  __________footer__________ */
+    footer {
+        padding: 47px 0 100px;
+    }
+
+    .footer__row {
+        justify-content: flex-start;
+        gap: 27px;
+    }
+
+    .footer__language-row {
+        right: 30px;
+    }
+}

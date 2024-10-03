@@ -1,0 +1,62 @@
+@media screen and (max-width: 767px) {
+
+    /*  __________design__________ */
+    .design::before {
+        background: url(../../img/design_ellips_mob.svg) right top / contain no-repeat;
+        height: 370px;
+    }
+
+    .design__row {
+        gap: 50px;
+    }
+
+    .design__slider {
+        height: 150px;
+    }
+
+    .design__slider-row {
+        justify-content: flex-end;
+        gap: 11px;
+        .design__slider-img {
+            img {
+                display: none;
+            }
+        }
+        .design__slider-left::before {
+            display: none;
+        }
+        .design__slider-left::after {
+            display: none;
+        }
+    }
+
+    /*  __________feedback__________ */
+    .feedback {
+        padding: 23px 0px 30px;
+    }
+
+    .feedback__title-row {
+        margin-bottom: 131px;
+    }
+
+    .feedback__item {
+        display: none;
+    }
+
+    .feedback__item-active {
+        display: inline-block;
+    }
+
+    .feedback__row:before {
+        width: calc(100% + 60px);
+        height: 200px;
+        top: -90px;
+    }
+
+    /*  __________footer__________ */
+    .footer__bottom-text {
+        left: 0%;
+        transform: none;
+        width: 100%;
+    }
+}
